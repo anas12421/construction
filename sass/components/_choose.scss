@@ -1,0 +1,139 @@
+#choose {
+  padding-top: 140px;
+}
+
+.choose_head_left p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #6B6B6B;
+}
+
+.choose_head_left a {
+  margin-top: 26px;
+  padding: 22px 78px;
+  padding: 22px 77px;
+  border-radius: 40px 5px;
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: -0.5px;
+  color: #18A7B9;
+  text-transform: capitalize;
+  border: 1px solid #18A7B9;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+
+
+
+
+.choose_head_left a:hover {
+  box-shadow: 0px 64.8148px 46.8519px rgba(24, 167, 185, 0.0759259), 0px 38.5185px 25.4815px rgba(24, 167, 185, 0.0607407), 0px 20px 13px rgba(24, 167, 185, 0.05), 0px 8.14815px 6.51852px rgba(24, 167, 185, 0.0392593), 0px 1.85185px 3.14815px rgba(24, 167, 185, 0.0240741);
+  // background: #18A7B9;
+  color: #fff;
+}
+
+
+
+
+.choose_head_left a::after{
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  transition: all 0.7s ease;
+  -webkit-transition: all 0.7s ease;
+  -moz-transition: all 0.7s ease;
+  -ms-transition: all 0.7s ease;
+  -o-transition: all 0.7s ease;
+  z-index: -1;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+
+
+.choose_head_left a:hover::after{
+  background-color: #18A7B9;
+  height: 180px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.choose_head_right h2 {
+  font-weight: 500;
+  font-size: 54px;
+  line-height: 120%;
+  color: #313131;
+}
+
+.choose_item {
+  padding-top: 109px;
+}
+
+.cir_items.for_margin{
+  margin: 92px 0;
+}
+
+.cir_number p {
+  font-weight: 600;
+  font-size: 72px;
+  color: #313131;
+  position: relative;
+  z-index: 1;
+}
+
+.cir_number p::after {
+  position: absolute;
+  content: "";
+  bottom: -8%;
+  left: -44%;
+  width: 76px;
+  height: 76px;
+  background: #18A7B9;
+  border-radius: 5px 38px;
+  z-index: -1;
+}
+
+.cir_number .for_shapec1::after{
+  background-color: #FE8432;
+  left: -35%;
+}
+.cir_number .for_shapec2::after{
+  background-color: #42B918;
+  left: -35%;
+}
+
+.cir_text p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #6B6B6B;
+  padding-left: 30px;
+  padding-right: 150px;
+  padding-top: 65px;
+}

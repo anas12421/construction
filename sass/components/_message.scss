@@ -1,0 +1,33 @@
+#message {
+  background: url(../images/message_banner.png) fixed no-repeat center / cover;
+  margin-top: 140px;
+  padding: 166px 0 291px 0;
+}
+.message_text{
+  position: relative;
+}
+
+.message_text h2 {
+  font-weight: 500;
+  font-size: 54px;
+  color: #FAFAFA;
+  text-align: center;
+  padding-bottom: 43px;
+}
+
+.message_text p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #FAFAFA;
+}
+
+.message_text .msgs_1 {
+  position: absolute;
+  top: 13%;
+  left: -7%;
+}
+.message_text .msgs_2 {
+  position: absolute;
+  bottom: -14%;
+  right: -7%;
+}

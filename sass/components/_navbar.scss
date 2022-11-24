@@ -1,0 +1,85 @@
+.menu {
+  // background-color: pink;
+  position: fixed;
+  width: 100%;
+  top: 60px;
+  z-index: 999;
+}
+
+.menu_ex {
+  background-color: rgb(243, 241, 241);
+  top: 0;
+  animation: menu_ex 1s;
+  -webkit-animation: menu_ex 1s;
+}
+
+.menu_ex path{
+  fill: black;
+}
+
+@keyframes menu_ex {
+  0% {
+    top: -50px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+.menu ul li {
+  padding: 0 16px;
+}
+
+.menu ul li a {
+  padding: 10px 0 !important;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #313131 !important;
+  position: relative;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.menu ul li a::after {
+  position: absolute;
+  content: "";
+  height: 5px;
+  width: 5px;
+  bottom: 0;
+  left: 50%;
+  border-radius: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  background-color: black;
+  opacity: 0;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.menu ul li a:hover {
+  font-weight: 600;
+}
+.menu ul li a.active {
+  font-weight: 600;
+}
+
+.menu ul li a.active::after {
+  opacity: 1;
+}
+.menu ul li a:hover::after {
+  opacity: 1;
+}

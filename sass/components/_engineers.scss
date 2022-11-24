@@ -1,0 +1,124 @@
+#engineers {
+  position: relative;
+}
+
+.engi_head h2 {
+  padding-top: 130px;
+  font-weight: 600;
+  font-size: 54px;
+  color: #313131;
+}
+
+.engi_head p {
+  font-size: 20px;
+  line-height: 28px;
+  color: #6B6B6B;
+  padding-top: 25px;
+}
+
+.slick_arrows {
+  width: 120px;
+  height: 66px;
+  background: #fff;
+  box-shadow: 0px 20px 50px rgba(198, 217, 225, 0.3);
+  border-radius: 65px;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 995;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+
+.slick_arrows i {
+  height: 50px;
+  width: 50px;
+  background: white;
+  box-shadow: 0px 8px 15px rgba(72, 72, 138, 0.08);
+  border-radius: 40px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+  cursor: pointer;
+  color: black;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.slick_arrows i:hover{
+  color: white;
+  background-color: #18A7B9;
+}
+
+
+
+
+.engi_slider_main {
+  padding: 80px 0 145px 0;
+  // background-color: silver;
+}
+
+.engi_sliders {
+  background: #FFFFFF;
+  box-shadow: 0px 20px 50px rgba(198, 217, 225, 0.3);
+  border-radius: 5px;
+  padding-bottom: 55px;
+  margin: 0 20px;
+}
+
+.engi_slide_top {
+  padding: 24px 28px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.engi_slide_top i {
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+}
+
+.engi_slide_top .star {
+  color: #F0BB00;
+}
+
+.engi_slider_detail h2 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #313131;
+  padding-top: 20px;
+  text-transform: capitalize;
+}
+
+.engi_slider_detail p {
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #6B6B6B;
+}
+
+.engi_slider_contact p {
+  padding-top: 40px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #6B6B6B;
+  opacity: 0.9;
+}
+
+.engi_slider_contact a {
+  font-weight: 500;
+  font-size: 17px;
+  color: #18A7B9;
+}
+
+.slick-slide img {
+  display: inline-block;
+}

@@ -1,0 +1,205 @@
+.contact_head h2 {
+  padding-top: 125px;
+  font-weight: 600;
+  font-size: 54px;
+  color: #313131;
+  text-transform: capitalize;
+}
+
+.contact_head p {
+  font-size: 20px;
+  line-height: 28px;
+  color: #6B6B6B;
+  padding-top: 8px;
+}
+
+
+// .con_form input {
+//   background: #F9F9F9;
+//   border-radius: 7px;
+//   border-color: transparent;
+//   font-size: 18px;
+//   color: black;
+//   width: 90%;
+// }
+
+
+// .con_form label {
+//   text-transform: capitalize;
+//   font-size: 18px;
+//   color: #6B6B6B;
+// }
+
+// .form-control:focus {
+//   color: #000;
+//   background-color: #fff;
+//   border-color: #000;
+//   outline: 0;
+//   box-shadow: none;
+// }
+
+
+
+// .con_form textarea {
+//   background: #F9F9F9;
+//   border-radius: 7px;
+//   border-color: transparent;
+//   font-size: 18px;
+//   color: black;
+//   width: 90%;
+// }
+
+
+
+
+.con_map {
+  margin-top: 32px;
+}
+
+
+
+.form {
+  width: 100%;
+  // background-color: red;
+}
+
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 90%;
+}
+
+.ic1 {
+  margin-top: 20px;
+}
+
+.ic2 {
+  margin-top: 30px;
+}
+
+.input {
+  background: #F9F9F9;
+  border-radius: 7px;
+  border: 0;
+  box-sizing: border-box;
+  color: #000;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+  font-size: 16px;
+}
+
+.cut {
+  background-color: transparent !important;
+  height: 20px;
+  left: 20px;
+  position: absolute;
+  top: -20px;
+  transition: transform 200ms;
+  width: 50px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+}
+
+.input:focus {
+  border: 1px solid #F4F4F4;
+}
+
+.input:focus~.cut,
+.input:not(:placeholder-shown)~.cut {
+  transform: translateY(8px);
+  -webkit-transform: translateY(8px);
+  -moz-transform: translateY(8px);
+  -ms-transform: translateY(8px);
+  -o-transform: translateY(8px);
+}
+
+
+.input:focus~.cut {
+  background-color: white !important;
+}
+
+.pchold {
+  color: #6B6B6B;
+  left: 20px;
+  line-height: 14px;
+  pointer-events: none;
+  font-size: 18px;
+  position: absolute;
+  transform-origin: 0 50%;
+  top: 20px;
+  text-transform: capitalize;
+  transition: transform 200ms, color 200ms;
+  -webkit-transition: transform 200ms, color 200ms;
+  -moz-transition: transform 200ms, color 200ms;
+  -ms-transition: transform 200ms, color 200ms;
+  -o-transition: transform 200ms, color 200ms;
+}
+
+.input:focus~.pchold,
+.input:not(:placeholder-shown)~.placeholder {
+  font-size: 10px;
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+  -webkit-transform: translateY(-30px) translateX(10px) scale(0.75);
+  -moz-transform: translateY(-30px) translateX(10px) scale(0.75);
+  -ms-transform: translateY(-30px) translateX(10px) scale(0.75);
+  -o-transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.input:not(:placeholder-shown)~.pchold {
+  color: #808097;
+}
+
+.input:focus~.pchold {
+  color: #000;
+}
+
+.in_msg {
+  height: 150px;
+}
+
+
+
+
+.con_submit {
+  padding-top: 29px;
+}
+
+.con_submit input {
+  border: none;
+  padding: 23px 48px;
+  background: transparent;
+  font-size: 17px;
+  letter-spacing: -0.5px;
+  color: #18A7B9;
+  text-transform: capitalize;
+  border-radius: 40px 5px;
+  border: 1px solid #18A7B9;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  margin-top: 110px;
+}
+
+
+.con_submit input:hover {
+  box-shadow: 0px 64.8148px 46.8519px rgba(24, 167, 185, 0.0759259), 0px 38.5185px 25.4815px rgba(24, 167, 185, 0.0607407), 0px 20px 13px rgba(24, 167, 185, 0.05), 0px 8.14815px 6.51852px rgba(24, 167, 185, 0.0392593), 0px 1.85185px 3.14815px rgba(24, 167, 185, 0.0240741);
+  background-color: #18A7B9;
+  color: #FAFAFA;
+}
